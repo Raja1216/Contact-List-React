@@ -2,23 +2,33 @@
   text-align: center;
 }
 
-.main-div{
+.main-div {
   display: grid;
   justify-content: center;
   padding: 2rem 4rem;
+}
+.add-form {
+  background-color: #f3d7f2;
+  min-width: 46rem;
+  border-radius: 1.1rem;
+  -webkit-box-shadow: 0px 3px 24px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 24px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 24px -2px rgba(0, 0, 0, 0.75);
+}
+.add-form h3 {
+  padding-top: 1rem;
+  color: #4643ef;
+}
 
+.add-form label {
+  float: left;
+  color: #4643ef;
+  font-weight: 500;
 }
-.add-form{
-  background-color: aqua;
+.add-form .btn-pri {
+  color: #fff;
+  background-color: rgb(187, 19, 123);
 }
-.add-form label{
-    float: left;
-}
-.add-form .btn-pri{
-    color: #fff;
-    background-color: rgb(187, 19, 123);
-}
-.user-list{
+.user-list {
   display: grid;
-  
 }

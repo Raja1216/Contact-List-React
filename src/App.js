@@ -51,6 +51,7 @@ const App = () => {
 
   //Edit Contact Function
   const updateContact = async (e) => {
+    console.log(userId);
     setIsLoading(true);
     e.preventDefault();
     try {
